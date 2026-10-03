@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  /* Devzo brand colors - trustworthy fintech navy/blue */
+  --color-navy-50: #f0f4f9;
+  --color-navy-100: #dbe4f0;
+  --color-navy-200: #b8cbe3;
+  --color-navy-300: #8babd0;
+  --color-navy-400: #5885b8;
+  --color-navy-500: #37649e;
+  --color-navy-600: #274c80;
+  --color-navy-700: #1e3b66;
+  --color-navy-800: #172c4d;
+  --color-navy-900: #0f1f38;
+  --color-navy-950: #0a1526;
+
+  --color-brand-50: #eef6ff;
+  --color-brand-100: #d9ecff;
+  --color-brand-200: #bcdeff;
+  --color-brand-300: #8ec9ff;
+  --color-brand-400: #59acff;
+  --color-brand-500: #328bfa;
+  --color-brand-600: #1c6eef;
+  --color-brand-700: #1758db;
+  --color-brand-800: #1a49b1;
+  --color-brand-900: #1b408b;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f7f9fc;
+}
